@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import TestPatternGenerate01 from '../components/TestPatternGenerate01.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/test-pattern-generate-01',
+    name: 'test-pattern-generate-01',
+    component: TestPatternGenerate01
   },
   {
     path: '/about',
